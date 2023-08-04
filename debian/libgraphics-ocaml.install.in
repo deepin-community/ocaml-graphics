@@ -1,0 +1,4 @@
+@OCamlDllDir@/dll*.so
+@OCamlStdlibDir@/graphics/META
+@OCamlStdlibDir@/graphics/*.cma
+DYN: @OCamlStdlibDir@/graphics/*.cmxs
