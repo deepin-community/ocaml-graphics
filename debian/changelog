@@ -1,5 +1,34 @@
-template-repository (1.0-1) unstable; urgency=medium
+ocaml-graphics (5.1.2-2) unstable; urgency=medium
 
-  * Initial release
+  * Fix build with recent dune
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Stéphane Glondu <glondu@debian.org>  Sat, 15 Jul 2023 06:51:38 +0200
+
+ocaml-graphics (5.1.2-1) unstable; urgency=medium
+
+  [ Stéphane Glondu ]
+  * New upstream release
+  * Bump Standards-Version to 4.6.0
+
+  [ Debian Janitor ]
+  * Update watch file format version to 4.
+
+ -- Stéphane Glondu <glondu@debian.org>  Thu, 18 Nov 2021 14:45:19 +0100
+
+ocaml-graphics (5.1.0-3) unstable; urgency=medium
+
+  * Add Breaks+Replaces: libfindlib-ocaml (<< 1.8.1-2~) (Closes: #985108)
+
+ -- Stéphane Glondu <glondu@debian.org>  Fri, 19 Mar 2021 09:32:34 +0100
+
+ocaml-graphics (5.1.0-2) unstable; urgency=medium
+
+  * Upload to unstable
+
+ -- Stéphane Glondu <glondu@debian.org>  Tue, 13 Oct 2020 10:19:18 +0200
+
+ocaml-graphics (5.1.0-1) experimental; urgency=medium
+
+  * Initial release (Closes: #970222)
+
+ -- Stéphane Glondu <glondu@debian.org>  Sun, 13 Sep 2020 18:06:36 +0200

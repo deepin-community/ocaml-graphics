@@ -1,0 +1,8 @@
+@OCamlStdlibDir@/graphics/*opam*
+@OCamlStdlibDir@/graphics/*dune*
+@OCamlStdlibDir@/graphics/*.ml*
+@OCamlStdlibDir@/graphics/*.cmi
+@OCamlStdlibDir@/graphics/*.cmt*
+@OCamlStdlibDir@/graphics/*.a
+OPT: @OCamlStdlibDir@/graphics/*.cmx
+OPT: @OCamlStdlibDir@/graphics/*.cmxa

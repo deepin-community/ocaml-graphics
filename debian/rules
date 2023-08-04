@@ -1,4 +1,15 @@
 #!/usr/bin/make -f
 
+include /usr/share/ocaml/ocamlvars.mk
+
+DESTDIR = $(CURDIR)/debian/tmp
+
 %:
-	dh $@
+	dh $@ --with ocaml
+
+override_dh_auto_build:
+	dune build -p graphics
+
+override_dh_auto_install:
+	dune install --destdir=$(DESTDIR) --prefix=/usr --libdir=$(OCAML_STDLIB_DIR)
+	rm -f debian/tmp/usr/doc/graphics/LICENSE
